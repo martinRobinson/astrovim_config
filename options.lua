@@ -2,9 +2,11 @@
 return {
   opt = {
     -- set to true or false etc.
+    textwidth = 100, -- set by me 17th March 2024
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = true, -- sets vim.opt.spell
+    spelllang = 'en_gb',
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
   },
